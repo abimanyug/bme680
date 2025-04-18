@@ -1,0 +1,17 @@
+dependencies:
+  idf:
+    source:
+      type: idf
+    version: 5.4.1
+  k0i05/esp_type_utils:
+    dependencies: []
+    source:
+      path: C:\Users\abimanyu\Documents\bme680
+      type: local
+    version: '*'
+direct_dependencies:
+- idf
+- k0i05/esp_type_utils
+manifest_hash: e02fe6701b91760be739ec60f4002e87927ace71c027446d5ff72ce981ab6331
+target: esp32c6
+version: 2.0.0
