@@ -6,7 +6,7 @@ dependencies:
   k0i05/esp_type_utils:
     dependencies: []
     source:
-      path: C:\Users\abimanyu\Documents\bme680
+      path: /home/abimanyu/Work/bme680
       type: local
     version: '*'
 direct_dependencies:

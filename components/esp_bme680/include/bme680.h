@@ -82,6 +82,20 @@ extern "C" {
     .heater_profile_size        = 1                                         \
 }
 
+#define I2C_BME680_CONFIG_MYDEFAULT {                                         \
+    .i2c_address                = I2C_BME680_DEV_ADDR_HI,                   \
+    .i2c_clock_speed            = I2C_BME680_DEV_CLK_SPD,                   \
+    .power_mode                 = BME680_POWER_MODE_FORCED,                 \
+    .iir_filter                 = BME680_IIR_FILTER_3,                    \
+    .pressure_oversampling      = BME680_PRESSURE_OVERSAMPLING_8X,          \
+    .temperature_oversampling   = BME680_TEMPERATURE_OVERSAMPLING_8X,       \
+    .humidity_oversampling      = BME680_HUMIDITY_OVERSAMPLING_8X,          \
+    .gas_enabled                = true,                                     \
+    .heater_temperature_profile = { 200, 240, 280, 320, 360, 360, 320, 280, 240, 200 }, \
+    .heater_duration_profile    = { 150, 150, 150, 150, 150, 150, 150, 150, 150, 150 }, \
+    .heater_profile_size        = 10                                                    \
+}
+
 #define I2C_BME680_FORCED_CONFIG_DEFAULT {                                              \
     .i2c_address                = I2C_BME680_DEV_ADDR_HI,                               \
     .i2c_clock_speed            = I2C_BME680_DEV_CLK_SPD,                               \

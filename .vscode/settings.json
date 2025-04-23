@@ -2,7 +2,7 @@
     "C_Cpp.intelliSenseEngine": "default",
     "idf.espIdfPathWin": "C:\\Users\\abimanyu\\esp\\v5.4.1\\esp-idf",
     "idf.toolsPathWin": "C:\\Users\\abimanyu\\.espressif",
-    "idf.pythonInstallPath": "C:\\Users\\abimanyu\\.espressif\\tools\\idf-python\\3.11.2\\python.exe",
+    "idf.pythonInstallPath": "/usr/bin/python",
     "idf.customExtraVars": {
         "IDF_TARGET": "esp32c6"
     },
